@@ -1,0 +1,17 @@
+{
+    "restartable": "rs",
+    "ext": "js",
+    "ignore": [
+        "dist",
+        "build",
+        "tmp",
+        "node_modules"
+    ],
+    "watch": [
+        "./src",
+        "./public/web_template_directory"
+    ],
+    "delay": 100,
+    "exec": "node src/server.js"
+}
+    

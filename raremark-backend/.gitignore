@@ -32,4 +32,4 @@ src/**/*.css
 ./src/config/db-config.ts
 ./src/config/db-config.js
 dist/
-.env
+# .env
