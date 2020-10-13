@@ -1,0 +1,313 @@
+
+
+
+.primaryColor-color {
+  color: $primaryColor;
+}
+.primaryColor-bg {
+  background-color: $primaryColor;
+}
+.white-color {
+  color: $white;
+}
+.white-bg {
+  background-color: $white;
+}
+.errorDark-color {
+  color: $errorDark;
+}
+.errorDark-bg {
+  background-color: $errorDark;
+}
+
+body,
+html {
+  max-width: 100%;
+  font-size: $baseFontSize + px;
+
+  @media (max-width: 1600px) {
+    font-size: $baseFontSize + px;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: $baseFontSize - 2 + px;
+  }
+  @media (max-width: 1024px) {
+    font-size: $baseFontSize - 3 + px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: $baseFontSize - 4 + px;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: $bodycolor;
+  font-family: $bodyfont;
+  font-style: normal;
+  font-size: rem(16);
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1300px;
+  }
+}
+
+.button:focus,
+a,
+button:focus,
+img,
+input:focus,
+p a,
+select:focus,
+textarea:focus {
+  //   outline: 0;
+}
+
+*:focus {
+  outline-style: none !important;
+  box-shadow: none !important;
+  /* border-color:transparent!important;*/
+}
+
+// Typography
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  line-height: 1.25;
+  font-weight: 700;
+  color: inherit;
+  margin: 0px;
+}
+
+h1,
+.h1 {
+  font-size: rem(44);
+}
+
+h2,
+.h2 {
+  font-size: rem(36);
+}
+
+h3,
+.h3 {
+  font-size: rem(28);
+}
+
+h4,
+.h4 {
+  font-size: rem(24);
+}
+
+h5,
+.h5 {
+  font-size: rem(20);
+}
+
+h6,
+.h6 {
+  font-size: rem(16);
+}
+
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.color-w {
+  color: #ffffff;
+}
+
+.color-b {
+  color: #000000;
+}
+
+.sml {
+  font-size: rem(12);
+}
+
+.fz10 {
+  font-size: rem(10);
+}
+
+.fz11 {
+  font-size: rem(11);
+}
+
+.fz12 {
+  font-size: rem(12);
+}
+
+.fz13 {
+  font-size: rem(13);
+}
+
+.fz14 {
+  font-size: rem(14);
+}
+
+.fz15 {
+  font-size: rem(15);
+}
+
+.fz16 {
+  font-size: rem(16);
+}
+
+.fz18 {
+  font-size: rem(18);
+}
+
+.fz19 {
+  font-size: rem(19);
+}
+
+.fz20 {
+  font-size: rem(20);
+}
+
+.fz22 {
+  font-size: rem(22);
+}
+
+.fz24 {
+  font-size: rem(24);
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* Small devices (landscape phones, 544px and up) */
+
+@media (min-width: 544px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 544px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+a {
+  color: $primaryColor;
+  text-decoration: none;
+  transition: color 300ms ease-in-out;
+
+  
+  &:hover {
+    color: $primaryDarkColor;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  &:focus,
+  &:active {
+    border-color: $primaryColor !important;
+  }
+}
+
+

@@ -1,0 +1,11 @@
+Task List for Raremark Frontend 
+. Structure the Project and Development Ready
+. Convert Design to HTML Frontend
+
+Task List for Raremark Backend
+. Create Node Api
+. Add Property API and Form
+. Search API
+. Details API
+. Dummy Property Data in Database
+
